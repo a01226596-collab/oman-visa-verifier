@@ -207,9 +207,9 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td id="resAppNum">100065217683</td>
+                        <td id="resAppNum">100065780989</td>
                         <td id="resNat">ETHIOPIA</td>
-                        <td id="resDocNum">EQ2264791</td>
+                        <td id="resDocNum">E00130161</td>
                         <td class="status-approved">Approved</td>
                     </tr>
                 </tbody>
@@ -225,14 +225,14 @@
         // Database of registered visas
         const visaDatabase = [
             {
-                appNum: "100065217683",
-                docNum: "EQ2264791",
+                appNum: "100065780989",
+                docNum: "E00130161",
                 nationality: "ETHIOPIA",
                 status: "Approved"
             },
             {
-                appNum: "100065217683",
-                docNum: "EQ2264791",
+                appNum: "100065780989",
+                docNum: "E00130161",
                 nationality: "ETHIOPIA",
                 status: "Approved"
             }
@@ -244,7 +244,7 @@
             const inputApp = document.getElementById('appNum').value.trim();
             const inputDoc = document.getElementById('docNum').value.trim();
             const inputNat = document.getElementById('nationality').value;
-            const errorMsg = document.getElementById('aproved ');
+            const errorMsg = document.getElementById('errorMsg');
             const resultBox = document.getElementById('resultBox');
 
             // Find matching visa record
